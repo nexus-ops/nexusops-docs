@@ -1,5 +1,7 @@
 # NexusOps public documentation
 
+https://nexus-ops.github.io/nexusops-docs/
+
 ## Contents
 
 - [NexusFleet](#nexusfleet)
