@@ -60,3 +60,28 @@ You can call test endpoint to ensure setup is correct:
 ```
 GET /api/v1/test/identity
 ```
+
+## Swagger and OpenAPI
+
+The API supports OpenAPI specification and Swagger UI.
+
+Swagger UI is available on development instances at `/swagger` path.
+
+### Code generation
+
+You can generate API definitions from OpenAPI specification. We recommend to utilize OpenAPI generator tools for that.
+
+You can check out [OpenAPI Generator](https://openapi-generator.tech/) which has support of many languages and HTTP clients (50+ client [generators](https://openapi-generator.tech/docs/generators)). 
+
+Usage example:
+
+```sh
+# install via NPM
+npm install @openapitools/openapi-generator-cli -g
+# or
+npm install @openapitools/openapi-generator-cli --save-dev
+
+# Generate APIs for TypeScript and Axios
+npx openapi-generator-cli generate --input-spec http://localhost:5050/swagger/v1/swagger.json --generator-name typescript-axios --output ./src/core/api/generated --config openapi-generator-cli-typescript-axios-config.json
+```
+
