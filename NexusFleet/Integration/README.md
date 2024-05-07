@@ -6,10 +6,22 @@
 
 ## Health check UI
 
+### Health check UI
+
 You can check health status of the NexusFleet Integration infrastructure by visiting the public dashboard. For instance, you can check it to see if NexusFleet Integration API is up and running.
 
 1. Development - [https://hc-development.integration.nexusfleet.io](https://hc-development.integration.nexusfleet.io)
 2. Production - [https://hc.integration.nexusfleet.io](https://hc.integration.nexusfleet.io)
+
+### Programmatic health monitoring
+
+You can make HTTP request to `/healthcheck` to get health status in JSON format and perform programmatic health checks.
+
+For instance:
+```
+GET https://api-development.integration.nexusfleet.io/healthcheck
+```
+![Calling /healthcheck endpoint](./Assets/HealthCheckHttpGetExample.jpg)
 
 ## Machine-to-machine integration
 
