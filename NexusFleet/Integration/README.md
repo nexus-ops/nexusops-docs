@@ -1,15 +1,15 @@
 # Integration with NexusFleet
 
 ## API URLs
-1. Development - https://api-development.integration.nexusfleet.io
-2. Production - https://api.integration.nexusfleet.io
+1. Development - [https://api-development.integration.nexusfleet.io](https://api-development.integration.nexusfleet.io)
+2. Production - [https://api.integration.nexusfleet.io](https://api.integration.nexusfleet.io)
 
 ## Health check UI
 
 You can check health status of the NexusFleet Integration infrastructure by visiting the public dashboard. For instance, you can check it to see if NexusFleet Integration API is up and running.
 
-1. Development - https://hc-development.integration.nexusfleet.io
-2. Production - https://hc.integration.nexusfleet.io
+1. Development - [https://hc-development.integration.nexusfleet.io](https://hc-development.integration.nexusfleet.io)
+2. Production - [https://hc.integration.nexusfleet.io](https://hc.integration.nexusfleet.io)
 
 ## Machine-to-machine integration
 
