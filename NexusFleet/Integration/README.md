@@ -4,6 +4,13 @@
 1. Development - https://api-development.integration.nexusfleet.io
 2. Production - https://api.integration.nexusfleet.io
 
+## Health check UI
+
+You can check health status of the NexusFleet Integration infrastructure by visiting the public dashboard. For instance, you can check it to see if NexusFleet Integration API is up and running.
+
+1. Development - https://hc-development.integration.nexusfleet.io
+2. Production - https://hc.integration.nexusfleet.io
+
 ## Machine-to-machine integration
 
 This scenario covers integrating your back-end application with NexusFleet Integration API back-end.
@@ -12,7 +19,7 @@ This scenario covers integrating your back-end application with NexusFleet Integ
 
 1. Get API key
     
-    1.1 It is linked only to your tenant
+    1.1 It's linked only to your tenant
 
     1.2 It provides access only to your tenant's data
 
@@ -32,7 +39,10 @@ Integration API client represents the app which you want to integrate with Nexus
 
 #### Register your tenant
 
-Go to NexusFleet web app https://app.nexusfleet.io and register you tenant.
+Go to the NexusFleet web app and register you tenant or login if you already have tenant.
+
+1. Development - https://app-development.nexusfleet.io
+2. Production - https://app.nexusfleet.io
 
 #### Create API client
 
@@ -73,7 +83,7 @@ You can generate API definitions from OpenAPI specification. We recommend to uti
 
 You can check out [OpenAPI Generator](https://openapi-generator.tech/) which has support of many languages and HTTP clients (50+ client [generators](https://openapi-generator.tech/docs/generators)). 
 
-Usage example:
+Usage example on JavaScript/TypeScript:
 
 ```sh
 # install via NPM
