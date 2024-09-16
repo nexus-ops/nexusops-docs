@@ -106,4 +106,13 @@ npm install @openapitools/openapi-generator-cli --save-dev
 # Generate APIs for TypeScript and Axios
 npx openapi-generator-cli generate --input-spec http://localhost:5050/swagger/v1/swagger.json --generator-name typescript-axios --output ./src/core/api/generated --config openapi-generator-cli-typescript-axios-config.json
 ```
+### Webhooks API Swagger
+
+See the webhook module interface in `AppWebhookInterface` section.
+There are endpoints specification for all available defined event types. Such as `ContractAllocated`, `ContractCheckIn`, `ContractCheckOut`, `Test`.
+
+![](./Assets/AppWebhookInterfaceSwaggerSection.jpg)
+
+The shape of model that will be passed to external API endpoint is described in the `Request body` section. For example:
+![](./Assets/WebhookRequestBodyExample.jpg)
 
